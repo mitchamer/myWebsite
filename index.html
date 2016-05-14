@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link rel="stylesheet" href="css/main.css">
 <body>
 <div class="container">
@@ -8,55 +10,87 @@
 		<title>Mitchael Hamer</title>
 	</head>
 	<main>
-	<div class="col-xs-12">
-		<header>
-			<h1>Mitchael Hamer</h1>
-		</header>
-	</div>
-		<div class="profile">
+	
+		<div class="col-xs-12">
+			<header>
+				<h1>Mitchael Hamer</h1>
+			</header>
+		</div>
+		
+		<div class=" col-xs-12 tagline">
 			<h2> I am an <strong>engineer</strong> with an affinity for <strong>learning</strong> new skills and subjects.</h2>
 		</div>
+		
 		<nav>
-			<ul>
-				<li><a href="#education">EDUCATION</a></li>
+			<ul class="col-md-12 nav nav-pills nav-justified">
 				<li><a href="#strengths">STRENGTHS</a></li>
+				<li><a href="#programming">PROGRAMMING</a></li>
 				<li><a href="#activities">ACTIVITIES</a></li>
 				<li><a href="#contact">CONTACT</a></li>
 			</ul>
 		</nav>
-		<div class="education">
-			<h3 id="education"><strong>EDUCATION</strong></h3>
-			<figure>
-			<ul>
-				<li>
-				<img src="images/headshot@2x.png" alt="headshot"  height="136"width="136"></li>
-			</ul>
-			</figure>
-			<p>I have obtained a Bachelor's of Applied Science at The University of British Columbia. I am currently working through <a href="http://www.codeschool.com" target="_blank">CodeSchool</a> courses to develop my coding skills.</p>
+
+		<div class="row">
+		<div class="col-md-12">
+			<h3 id="profile"><strong><i class="glyphicon glyphicon-user"></i>PROFILE</strong></h3>
 		</div>
+			<div class="col-md-offset-1 col-md-2 container">
+				<img class="img-responsive img-circle" src="images/headshot@2x.png" alt="headshot"  height="136" width="136">
+			</div>
+			<div class="col-md-9">	
+				<p>
+				I am a junior developer with an engineering degree from the University of British Columbia. I have decided to pursue my passion for technology by learning web and app development. I am currently working through 
+				<a href="http://www.codeschool.com" target="_blank">
+				CodeSchool 
+				</a>
+				courses to develop my coding skills. I am looking for work as a junior programmer in <a href="https://www.google.ca/maps/place/Vancouver,+BC/@49.256042,-123.2639963,11z/data=!3m1!4b1!4m5!3m4!1s0x548673f143a94fb3:0xbb9196ea9b81f38b!8m2!3d49.2827291!4d-123.1207375" target="_blank">Vancouver, B.C.</a></p>
+			</div>
+		</div>
+
 		<div class="strengths">
-			<h3 id="strengths"><strong>STRENGTHS</strong></h3>
-			<p>The coding languages in which I am fluent in are as follows:</p>
+		<div class="col-md-12">
+			<h3 id="strengths"><strong><i class="glyphicon glyphicon-star-empty"></i>STRENGTHS</strong></h3>
+			<div class="col-md-9">
+			<p></p>
 			<ul>
-				<li>C++</li>
-				<li>HTML5</li>
-				<li>CSS3</li>
-				<li>JavaScript</li>
-				<li>VBA</li>
+				<li></li>
+				<li></li>
+				<li></li>
 			</ul>
+			</div>
+		</div>
+		</div>
+		<div class="programming">
+		<div>
+			<h3 id="programming"><strong><i class="glyphicon glyphicon-console"></i>PROGRAMMING</strong></h3>
+		</div>	
+		<div class="col-md-9">	
+			<p>The coding languages in which I am fluent in are as follows:</p>
+				<ul>
+					<li>C++</li>
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>JavaScript</li>
+					<li>VBA</li>
+				</ul>
 			<p>I have future intentions to learn AngularJS, MySQL, and Swift.</p>
 		</div>
+		</div>
 		<div class="activities">
-			<h3 id="activities"><strong>ACTIVITIES</strong></h3>
+		<div class="col-md-12">	
+			<h3 id="activities"><strong><i class="glyphicon glyphicon-tree-conifer"></i>ACTIVITIES</strong></h3>
+		</div>	
+		<div class="col-md-9">
 			<p>I enjoy biking, skiing, running, astrophysics and I have a degree in Geological Engineering.</p>
 		</div>
+		</div>
 	</main>
-	<footer>
+</div>	
+	<footer class=col-xs-12>
 			<h3 id="contact"><strong>CONTACT ME</strong></h3>
-			<p>Send me an <a href="mailto:mitch.hamer+neocitiesemail@gmail.com?Subject=Neocities%20Contact" target="_top">email</a>.</p>
+			<p>Send me an <a href="mailto:mitch.hamer+neocitiesemail@gmail.com?Subject=Neocities%20Contact" target="_top">email<i class="glyphicon glyphicon-envelope"></i></a>.</p>
 			<input type="email" placeholder="Enter your email..." required>
-		</footer>
-</div>		
+	</footer>	
 <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 <script src='js/bootstrap.min.js'></script>
 </body>
